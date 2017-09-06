@@ -50,6 +50,9 @@
         {!! $article->html_content !!}
     </div>
 
+
+    <div id="share" class="social-share m-t-25"></div>
+    <!--PC版-->
     <!-- 代码1：放在页面需要展示的位置  -->
     <!-- 如果您配置过sourceid，建议在div标签中配置sourceid、cid(分类id)，没有请忽略  -->
     <div id="cyReward" role="cylabs" data-use="reward"></div>
@@ -59,8 +62,6 @@
     <script type="text/javascript" charset="utf-8" src="https://changyan.itc.cn/js/lib/jquery.js"></script>
     <script type="text/javascript" charset="utf-8" src="https://changyan.sohu.com/js/changyan.labs.https.js?appid=cytc1F6Fo"></script>
 
-    <div id="share" class="social-share m-t-25"></div>
-    <!--PC版-->
     <div id="SOHUCS" sid="{{$article->id}}"></div>
     <script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
     <script type="text/javascript">
